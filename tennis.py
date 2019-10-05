@@ -7,8 +7,8 @@ import time
 #  Script
 
 
-user = "dharminlive12@live.com"
-pwd = "dhacha2018"
+user = ""
+pwd = ""
 browser = webdriver.Chrome("/Users/dharminchauhan/Downloads/chromedriver")
 browser.get('http://mon.pythonanywhere.com/accounts/login/?next=/league/')
 elem = browser.find_element_by_id("id_username")
